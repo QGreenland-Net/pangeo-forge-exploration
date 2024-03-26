@@ -1,3 +1,11 @@
+"""
+WIP code to write a recipe for turning the seal tag csv data into a gpkg w/
+apache beam + pangeo forge.
+
+Still need to figure out how to write the transform/write steps. Pangeo-forges'
+pre-defined transformations focus on e.g., reading a variable from many nc files
+and then aggregating them into zarr stores.
+"""
 import apache_beam as beam
 from pangeo_forge_recipes.patterns import FilePattern
 
