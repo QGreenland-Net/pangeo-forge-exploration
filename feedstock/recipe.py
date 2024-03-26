@@ -21,4 +21,7 @@ pattern = FilePattern(make_full_path)
 for index, fname in pattern.items():
     print(index, fname)
 
-recipe = beam.Create(pattern.items())
+recipe = (
+    beam.Create(pattern.items())
+    | beam.io.WriteToText("foo.txt")
+)
