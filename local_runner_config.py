@@ -11,5 +11,5 @@ c.TargetStorage.fsspec_class = "fsspec.implementations.local.LocalFileSystem"
 c.InputCacheStorage.root_path = f"file://{THIS_DIR}/storage/cache"
 c.InputCacheStorage.fsspec_class = c.TargetStorage.fsspec_class
 
-c.Bake.bakery_class = "pangeo_forge_runner.baker.local.LocalDirectBakery"
+c.Bake.bakery_class = "pangeo_forge_runner.bakery.local.LocalDirectBakery"
 c.LocalDirectBakery.num_workers = 4
