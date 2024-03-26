@@ -1,4 +1,4 @@
-name: qgr-forge-spike
+name: pangeo-forge-exploration
 platforms:
   - linux-64
 channels:
