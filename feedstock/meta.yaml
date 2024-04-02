@@ -1,0 +1,25 @@
+title: "Test: Seal tag data"
+description: >-
+  TODO
+
+
+recipes:
+  - id: "adc_seal_tag_data"
+    object: "recipe:recipe"
+
+
+provenance:
+  # license: "TODO"
+  providers:
+    - name: "ADC"
+      description: >-
+        TODO
+      roles:
+        - "producer"
+      # url: "https://example.com"
+
+
+maintainers: []
+
+
+# bakery: ...
