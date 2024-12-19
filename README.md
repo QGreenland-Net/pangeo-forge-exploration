@@ -1,7 +1,14 @@
 # pangeo-forge-exploration
 
+This repository has been archived.
+
 This repository contains notes and code to explore the use of
 [pangeo-forge](https://pangeo-forge.readthedocs.io/en/latest/).
+
+After further thought and discussion with pangeo-forge contributors we concluded
+that the pangeo-forge approach was not well-aligned with our use-case. Notes
+from our discussion with pangeo-forge maintainers can be found here:
+<https://qgreenland-net.github.io/notes/2024-04-04_pangeo-forge.html>
 
 
 ## Custom writers
