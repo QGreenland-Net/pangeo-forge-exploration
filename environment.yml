@@ -7,5 +7,9 @@ channels:
 dependencies:
   - python ~=3.11.0
   - pangeo-forge-recipes ~=0.10.7
-  - pangeo-forge-runner ~=0.9.4
   - apache-beam ~=2.54.0
+
+  - pip
+  - pip:
+    - pangeo-forge-runner ~=0.10.2
+    - venvception
